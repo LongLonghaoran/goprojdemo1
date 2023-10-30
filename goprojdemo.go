@@ -1,5 +1,7 @@
 package goprojdemo1
 
-import _ "github.com/LongLonghaoran/gomoddemo"
+import gomoddemo "github.com/LongLonghaoran/gomoddemo"
 
-func Hello(){}
+func Hello(){
+  gomoddemo.SayHello()
+}
